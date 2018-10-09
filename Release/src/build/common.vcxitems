@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -18,6 +18,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\http\client\http_client.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\http\client\http_client_msg.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\http\client\x509_cert_utilities.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\http\common\http_compression.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\http\common\http_helpers.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\http\common\http_msg.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\http\listener\http_listener.cpp" />
